@@ -1,0 +1,11 @@
+{
+  "activityIndexMessageTitle": "Neuer Ativitäten-Index",
+  "activityIndexMessageContent": "Neuer Aktivitäten-Index: {emoji} ({description})",
+  "activityIndexStatistics": "Statistiken",
+  "activityIndexRating": "Allgemeine Bewertung",
+  "statisticWeekly": "Wöchentliche Aktivität",
+  "statisticDaily": "Tägliche Aktivität",
+  "metricActivity": "Aktivität",
+  "metricDay": "Tag",
+  "metricHours": "Zeit (Stunden)"
+}

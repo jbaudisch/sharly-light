@@ -1,0 +1,12 @@
+{
+  "activityIndexMessageTitle": "New Activity Index",
+  "activityIndexMessageContent": "New Activity Index: {emoji} ({description})",
+  "activityIndexStatistics": "Statistics",
+  "activityIndexRating": "Overall rating",
+  "statisticWeekly": "Weekly Activity",
+  "statisticDaily": "Daily Activity",
+  "metricActivity": "Activity",
+  "metricDay": "Day",
+  "metricHours": "Time (Hours)",
+  "activityIndexError": "Could not fetch Activity Index: {message}"
+}
