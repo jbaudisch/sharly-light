@@ -28,6 +28,7 @@ class _ActivityIndexScreenState extends State<ActivityIndexScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.background,
       body: FutureBuilder(
         future: _future,
         builder: (context, snapshot) {

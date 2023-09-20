@@ -6,10 +6,10 @@ const apiUrl = "http://localhost:8080/activity_index";
 // Android & iOS only
 
 // MQTT
-const mqttHost = "192.168.178.107";
+const mqttHost = "";
 const mqttPort = 1883;
-const mqttUsername = "admin";
-const mqttPassword = "kogniuser";
+const mqttUsername = "";
+const mqttPassword = "";
 const mqttTopic = "activity_index";
 
 /// This controls whether the background service should be running constantly

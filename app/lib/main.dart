@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -61,7 +60,6 @@ class SharlyLight extends StatelessWidget {
       home: notificationPayload != null
           ? screenFromNotificationPayload(notificationPayload!)
           : const ActivityIndexScreen(index: ActivityIndex.happy,),
-      // locale: Locale(Platform.localeName),
     ));
   }
 }

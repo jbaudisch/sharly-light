@@ -5,7 +5,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:mqtt_client/mqtt_client.dart';
-import 'package:sharly_app_light/constants.dart';
+import 'package:sharly_app_light/config.dart';
 import 'package:sharly_app_light/utilities/notification_id.dart';
 import 'package:sharly_app_light/models/activity_index.dart';
 import 'package:sharly_app_light/models/notification_payload/notification_payload.dart';

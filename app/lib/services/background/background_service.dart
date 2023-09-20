@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sharly_app_light/constants.dart';
+import 'package:sharly_app_light/config.dart';
 import 'package:sharly_app_light/services/background/notification_service.dart';
 import 'package:sharly_app_light/utilities/platform.dart';
 import 'package:uuid/uuid.dart';
