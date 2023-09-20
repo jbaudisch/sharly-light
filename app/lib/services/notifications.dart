@@ -12,12 +12,13 @@ import 'package:sharly_app_light/utilities/global_navigator_state.dart';
 /// work.
 Future<void> initializeNotifications() async {
   final notificationPlugin = FlutterLocalNotificationsPlugin();
+  notificationPlugin.resolvePlatformSpecificImplementation<
+      AndroidFlutterLocalNotificationsPlugin>()?.requestPermission();
   notificationPlugin.initialize(
       const InitializationSettings(
           android: AndroidInitializationSettings("@mipmap/ic_launcher")),
       onDidReceiveNotificationResponse: _notificationTapBackground);
 }
-
 @pragma("vm:entry-point")
 void _notificationTapBackground(NotificationResponse response) {
   if (globalNavigatorKey.currentContext == null || response.payload == null) {

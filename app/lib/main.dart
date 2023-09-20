@@ -19,7 +19,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   NotificationPayload? notificationPayload;
   if (isAndroid || isIOS) {
-    // TODO: Request notification permission
     await initializeService();
     await initializeNotifications();
     final details = await FlutterLocalNotificationsPlugin()
